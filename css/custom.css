@@ -1,7 +1,6 @@
 
 body {
-	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-top: 30px;	
 }
 
 .logo {
@@ -28,29 +27,53 @@ body {
 
 .jumbotron {
 	text-align: center;
+	background-image:url('../images/mountain_jumbo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-weight: 900;
+	padding-top: 200px;
+	margin-bottom: 0;
 }
 
 .jumbotron h1 {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	
+	margin: auto;
 	font-family: 'Arvo', serif;
+	border:solid;
+	border-width:7px;
+	border-color:white;
+	width: 70%;
+
 }
 
-#jumbo-subtitle {
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-bottom: 70px;
-	margin-top: 50px;
-}
 
 #jumbo-claim {
 	line-height: 40px;
 	letter-spacing: 2px; 
 	padding-left: 50px;
 	padding-right: 50px;
+	margin-top:120px;
 	margin-bottom: 70px;
+
 }
 
+#subtitle {
+	margin-top: 0;
+	width:100%;
+	padding-bottom: 70px;
+	padding-top: 100px;
+	background-color: #f7f7f7;
+	font-style: italic;
+}
+
+#jumbo-subtitle {
+	text-align:center;
+	padding-left:200px;
+	padding-right: 200px;
+	font-size:20px;
+	
+}
 
 #jumbo-btn {
 	float:left;
@@ -58,7 +81,76 @@ body {
 
 }
 
-#home-page-containers {
+.btn-primary {
+	background-color: #233A5A;
+}
+
+.row {
+	padding-top: 70px;
+}
+
+#home-page-spacing {
+	
+	margin-top: 50px;
+
+}
+
+.fa-inverse {
+	background-color: #233A5A;
+	border-radius: 50%;
+}
+
+.col-md-4 p {
+	min-height: 140px;
+}
+	
+
+.container .row {
 	text-align: center;
 }
 
+#portfolio-home-carousel {
+	text-align: center;
+	
+}
+
+#carousel-home {
+	padding-left: 100px;
+	padding-right:100px;
+	padding-top: 100px;
+	height: 300px;
+}
+
+.carousel-inner a {
+	text-align: center;
+}
+
+.carousel-caption {
+	color:#222222;
+}
+
+footer {
+	background-color: #233A5A;
+	padding-top: 150px;
+	color:#fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/* Responsive Styling */
+
+@media (max-width: @1199px) { 
+	#jumbo-subtitle {
+	text-align:center;
+	font-size:16px;
+	}
+}
+
+@media (max-width: @768px) { 
+	#jumbo-subtitle p{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align:center;
+	font-size:12px;
+	}	
+}
