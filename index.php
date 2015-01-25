@@ -1,61 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<?php 
+define ("TITLE", "Home | Last Mile Ventures");
+include ('includes/header.php');
 
-    <title>Last Mile Venture Investments</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    
-    <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-          <a href="http://lastmileventures.com" target="_blank"><img class="logo" src="images/logo_LMV.jpg"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#about">Investment Thesis</a></li>
-            <li><a href="#portfolio">About LMV</a></li>
-            <li><a href="#strategy">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+?>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -77,20 +25,14 @@
       <div class="row">
         <div class="col-md-4">
 	        
-	        <span class="fa-stack fa-3x">
-  			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
-			</span>
+	        <img src="images/foto_long_way.jpg">
           <h2>A long way to go</h2>
           <p>tarting and running a business requires time, focus and luck and you know the road will be long, very long, and probably bumpy. You probably need a partner on the way, why not us? </p>
           <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
           
-          <span class="fa-stack fa-3x">
-  			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-money fa-stack-1x fa-inverse"></i>
-			</span>
+          <img src="images/foto_investments.jpg" style="max-height:160px;">
           <h2>Investments</h2>
           <p>Money can't buy everything, but some money might help you on your journey from the very beginning to your last mile.
           </br>
@@ -98,10 +40,7 @@
           <p><a class="btn btn-primary" href="https://docs.google.com/forms/d/18H8rC7oPd5oveXVrTiU2EuHeWPyGgii7nX0bwA8Gy5Y/viewform?usp=send_form" target="_blank" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-3x">
-  			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-			</span>
+          <img src="images/foto_technology.jpg">
           <h2>Technology</h2>
           <p>Technolgy is changing the world and drives us crazy. Are you a tech company willing to make an impact? We can help.</p>
           <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
@@ -169,20 +108,9 @@
 		   <div>SOMETHING TO BE ENERED HERE </div>
 		   <hr>
     	</div> <!-- /container -->
-      <footer>
-      	<div class="container">
-        <p>&copy; Last Mile Ventures 2015</p>
-      	</div>	
-      </footer>
-    
+   
 
+   <?php 
+   include('includes/footer.php');
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
+   ?>

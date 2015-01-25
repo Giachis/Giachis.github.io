@@ -25,11 +25,21 @@ body {
 	background-color: #222222;
 }
 
+
+/* 
+---------------------- 
+Jumbotron section 
+-------------------------
+*/
+
+
 .jumbotron {
 	text-align: center;
 	background-image:url('../images/mountain_jumbo.jpg');
-	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-size: cover;
 	color: white;
 	font-weight: 900;
 	padding-top: 200px;
@@ -37,8 +47,8 @@ body {
 }
 
 .jumbotron h1 {
-	
 	margin: auto;
+	margin-top:150px;
 	font-family: 'Arvo', serif;
 	border:solid;
 	border-width:7px;
@@ -51,8 +61,8 @@ body {
 #jumbo-claim {
 	line-height: 40px;
 	letter-spacing: 2px; 
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 140px;
+	padding-right: 140px;
 	margin-top:120px;
 	margin-bottom: 70px;
 
@@ -78,21 +88,27 @@ body {
 #jumbo-btn {
 	float:left;
 	margin-top: 50px;
-
 }
+
+
+/* 
+-------------------------------
+Main Container - Style eleents 
+-------------------------------
+*/
 
 .btn-primary {
 	background-color: #233A5A;
 }
 
-.row {
-	padding-top: 70px;
-}
+
 
 #home-page-spacing {
-	
 	margin-top: 50px;
+}
 
+.spacing {
+	margin-bottom: 50px;
 }
 
 .fa-inverse {
@@ -104,10 +120,35 @@ body {
 	min-height: 140px;
 }
 	
-
+/* this acts on to the 3 blocks row in the home page */
 .container .row {
 	text-align: center;
 }
+
+/* this acts on to the 2 invest thesis paragraphs - columns  in the investment thesis page */
+.pages {
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+.pages h2 {
+	text-align:left;
+}
+
+
+.pages p {
+	text-align:left
+
+}
+
+.pages .col-md-3 {
+	padding-top: 20px;
+}
+/* 
+---------------------- 
+carousel styling
+-------------------------
+*/
 
 #portfolio-home-carousel {
 	text-align: center;
@@ -129,6 +170,12 @@ body {
 	color:#222222;
 }
 
+/* 
+---------------------- 
+Footer section
+-------------------------
+*/
+
 footer {
 	background-color: #233A5A;
 	padding-top: 150px;
@@ -136,17 +183,21 @@ footer {
 	text-align: center;
 	margin-bottom: 0;
 }
+/* 
+---------------------- 
+Responsive Styling
+-------------------------
+*/
 
-/* Responsive Styling */
 
-@media (max-width: @1199px) { 
+@media (max-width: 1199px) { 
 	#jumbo-subtitle {
 	text-align:center;
 	font-size:16px;
 	}
 }
 
-@media (max-width: @768px) { 
+@media (max-width: 768px) { 
 	#jumbo-subtitle p{
 	padding-left: 30px;
 	padding-right: 30px;
